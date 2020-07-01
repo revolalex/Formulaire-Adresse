@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- inclusion du style CSS de base -->
+  <link rel="stylesheet" type="text/css"
+  href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" href="style.css">
+
+
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <title>Formulaire</title>
+</head>
+
+<body>
+
+  <form id="myform">
+    <header>Formulaire</header>
+    <div class="area">
+
+      <div class="row">
+        <div class="col2">
+          <input type="text "name="prenom" id="prenom" maxlength="20" onblur="checkPrenom(this)" required>
+          <span id="missPrenom"></span>
+          <label for="prenom">Prénom</label>
+        </div>
+
+        <div class="col2">
+          <input type="text "name="nom" id="nom "maxlength="20" onblur="checkNom(this)" required>
+          <span id="missNom"></span>
+          <label for="nom">Nom</label>
+        </div>
+
+      </div>
+
+
+      <div class="row">
+        <div class="col2">
+          <input id="date" type="text" name="date" min="1940-01-01" maxlength="2021-01-01" placeholder="dd/mm/yyyy" onblur="checkDate(this)" required>
+          <span id="missDate"></span>
+          <label for="date">Date de naissance</label>
+        </div>
+
+        <div class="col2">
+          <input type="email "name="email"id="email "required onblur="checkEmail()">
+          <span id="missEmail"></span>
+          <label for="email">Email</label>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col2">
+          <label for="cp">Code Postal</label>
+          <input id="cp" name="cp"  type="text" placeholder=" ex: 94000"  onblur="checkCp(this)" required>
+          <span id="missCp"></span>
+        </div>
+        <div class="col2">
+          <input id="ville" name="ville" type="text" placeholder="Choisir un CP" disabled required>
+          <label for="lastname">Ville</label>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <input id="adresse" name="adresse"  type="text" placeholder="Adresse" required onblur="checkAdresse(this)">
+        <span id="missAdresse"></span>
+        <label for="address">Adresse</label>
+      </div>
+
+    </div>
+    <div class="area">
+      <div class="ckeckarea">
+        <input type="checkbox" name="newsLetter" id="newsLetter" onclick="newsLetterOk()">
+        <label for="newsLetter">M'abonner à la newslestter.</label>
+      </div>
+      <div class="row">
+        <input type="submit" value="Valider" id="bouton_envoi">
+      </div>
+  </form>
+
+
+
+    <!-- inclusion des libraries jQuery et jQuery UI (fichier principal et plugins) -->
+    <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

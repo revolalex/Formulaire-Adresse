@@ -33,6 +33,8 @@ body {
     transition: all 0.3s ease;
   }
   
+
+  /* Input */
   input {
     width: 100%;
     box-sizing: border-box;
@@ -73,6 +75,8 @@ body {
     display: table;
   }
   
+
+  /* Check area */
   .ckeckarea input[type="checkbox"] {
     display: none;
   }
@@ -135,7 +139,10 @@ body {
   .ckeckarea input[type="checkbox"]:checked ~ label {
     color: #69B692;
   }
-  
+
+
+
+  /* Button */
   .btn {
     width: 35%;
     margin-right: 3%;
@@ -150,6 +157,8 @@ body {
     cursor: pointer;
   }
   
+
+  /* @media */
   @media screen and (max-width: 800px) {
     #myform {
     margin: 50px auto;

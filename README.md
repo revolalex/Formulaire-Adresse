@@ -25,9 +25,9 @@ The different form area are check (regex).
 
 <img src="https://user-images.githubusercontent.com/56839789/86458483-976a7f00-bd25-11ea-9436-40f1729ec962.gif" alt="" width="70%;">
 
-<img width="400" alt="Capture d’écran 2020-06-01 à 10 04 11" src="https://user-images.githubusercontent.com/56839789/83388800-60840f00-a3ef-11ea-943e-ee823f60a237.png">
-
 <img src="https://user-images.githubusercontent.com/56839789/86374699-27a4b780-bc85-11ea-8767-99bbac1ee1be.png" alt="" width="70%;">
+
+<img width="600" alt="Capture d’écran 2020-06-01 à 10 04 11" src="https://user-images.githubusercontent.com/56839789/83388800-60840f00-a3ef-11ea-943e-ee823f60a237.png">
 
 
 

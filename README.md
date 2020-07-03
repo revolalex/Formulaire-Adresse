@@ -55,6 +55,10 @@ link: https://geo.api.gouv.fr/adresse
  <li>Regex
  <li>Autocomplete
  <li>Jquery
+ <li>change css style with js
+ <li>Control input
+ <li>Validity.valueMissing
+ <li>Data
 </ul>
  
  

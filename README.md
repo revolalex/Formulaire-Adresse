@@ -70,7 +70,7 @@ Project is:  _finished_
 
 
 ## Contact
-Created by Alexandre Rodriguez
+Created by Alexandre 
 revolalex@gmail.com
 
 

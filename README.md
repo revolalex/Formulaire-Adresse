@@ -1,3 +1,7 @@
+![](https://img.shields.io/badge/made%20with-javaScript-yellow?logo=javaScript).
+![](https://img.shields.io/badge/made%20with-html-blue?logo=html5).
+![](https://img.shields.io/badge/made%20with-css-green?logo=css3).
+
 <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Frevolalex%2FFormulaire-Adresse" alt="Hits">.
 # Project Name : Adress - Form
 > This form use API for autocomplete.
@@ -66,13 +70,28 @@ link: https://geo.api.gouv.fr/adresse
  
  
 ## Status
-Project is:  _finished_
-
-
-## Contact
-Created by Alexandre 
-revolalex@gmail.com
+Project is:  _Finish_
 
 
 ## Website
 link: https://form-adress.netlify.app
+
+
+
+## Contact	
+- [![LinkedIn][linkedin-shield]][linkedin-url] 	
+- revolalex@gmail.com
+
+
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/alexandre-rodrigueza/
+
+
+
+
